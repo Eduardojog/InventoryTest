@@ -20,5 +20,6 @@ Dependency Injection: Use @inject to inject services into a component.
 
 
 Improving and Paginating a Grid
-For improving and paginating a grid in Blazor, refer to this https://ankitsharmablogs.com/blazorgrid-reusable-grid-component-for-blazor/
+For improving and paginating a grid in Blazor, refer to this:
+https://ankitsharmablogs.com/blazorgrid-reusable-grid-component-for-blazor/
 
