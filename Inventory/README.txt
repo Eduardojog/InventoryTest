@@ -8,3 +8,17 @@ To set up and update your database schema, use the following commands:
 ```powershell
 PM> add-migration AddData
 PM> update-database
+
+
+## Blazor Syntax and Key Notes
+One-way Binding: Use @ to bind C# variables to the UI.
+Two-way Binding: Use @bind to enable two-way data binding.
+Event Handling: Use @on[event] to handle events (e.g., @onclick).
+Routing: Use @page "/route" to define a component's route.
+Dependency Injection: Use @inject to inject services into a component.
+@inject NavigationManager NavManager  for navigate functionalities
+
+Improving and Paginating a Grid
+For improving and paginating a grid in Blazor, refer to this
+https://ankitsharmablogs.com/blazorgrid-reusable-grid-component-for-blazor/
+
