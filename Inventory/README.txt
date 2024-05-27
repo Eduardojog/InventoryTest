@@ -18,6 +18,7 @@ Routing: Use @page "/route" to define a component's route.
 Dependency Injection: Use @inject to inject services into a component.
 @inject NavigationManager NavManager  for navigate functionalities
 
+
 Improving and Paginating a Grid
 For improving and paginating a grid in Blazor, refer to this
 
