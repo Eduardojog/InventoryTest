@@ -16,7 +16,7 @@ Two-way Binding: Use @bind to enable two-way data binding.
 Event Handling: Use @on[event] to handle events (e.g., @onclick).
 Routing: Use @page "/route" to define a component's route.
 Dependency Injection: Use @inject to inject services into a component.
-@inject NavigationManager NavManager  for navigate functionalities
+@inject NavigationManager NavManager for navigate functionalities
 
 
 Improving and Paginating a Grid
