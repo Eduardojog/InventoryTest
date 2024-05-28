@@ -66,3 +66,38 @@ Performance:
 
 Render Fragments: Use RenderFragment for efficient rendering.
 Virtualization: Use <Virtualize> for rendering large lists efficiently.
+
+
+
+``` NOTES for create database powershell
+PM> add-migration AddData
+PM> update-database
+
+
+Blazor Syntax and Key Notes
+Data Binding
+One-way Binding: Use @ to bind C# variables to the UI.
+
+<p>@variableName</p>
+Two-way Binding: Use @bind to enable two-way data binding.
+
+<input @bind="variableName" />
+Event Handling
+Event Handling: Use @on[event] to handle events (e.g., @onclick).
+
+<button @onclick="EventHandlerMethod">Click me</button>
+Routing
+Routing: Use @page "/route" to define a component's route.
+
+@page "/home"
+Dependency Injection
+Dependency Injection: Use @inject to inject services into a component.
+
+@inject ServiceType ServiceName
+For navigation functionalities, you can inject NavigationManager.
+
+@inject NavigationManager NavManager
+Improving and Paginating a Grid
+For improving and paginating a grid in Blazor, refer to this resource:
+
+Web::https://ankitsharmablogs.com/blazorgrid-reusable-grid-component-for-blazor/
