@@ -6,7 +6,7 @@ This project is a Blazor application for managing inventory, with a focus on CRU
 ## Setting Up the Project Database with Entity Framework Core
 To set up and update your database schema, use the following commands:
 
-```powershell
+```NOTES powershell
 PM> add-migration AddData
 PM> update-database
 
